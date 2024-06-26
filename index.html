@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ticker</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400" rel="stylesheet">
+    <link rel="stylesheet" href="css/monokai-sublime.css">
+    <link rel="stylesheet" type="text/css" href="css/demo-page-styles.css">
+    <link rel="stylesheet" type="text/css" href="css/breaking-news-ticker.min.css">
+
+    
+</head>
+
+<body>
+
+    <div class="bn-breaking-news" id="newsTicker1">
+        <div class="bn-label">Ticker Content</div>
+
+        <div class="bn-news">
+            <ul>
+                <li><a href="#" target="_top"><b>1. CONSUMERS NOT</b></a></li>
+                <li><a href="#" target="_top"><b>2. FARMERS ALLAY</b></a></li>
+                <li><a href="#" target="_top"><b>3. FARMERS BAFFLED </b></a></li>
+                <li><a href="#" target="_top"><b>4. FARMERS BLAME</b></a></li>
+                <li><a href="#" target="_top"><b>5. FARMERS BLAME</b></a></li>
+                <li><a href="#" target="_top"><b>6. FARMERS BLAME</b></a></li>
+                <li><a href="#" target="_top"><b>7. FARMERS BLAME</b></a></li>
+                <li><a href="#" target="_top"><b>8. FARMERS BLAME</b></a></li>
+                <li><a href="#" target="_top"><b>9. FARMERS BLAME</b></a></li>
+                <li><a href="#" target="_top"><b>10. FARMERS BLAME</b></a></li>
+                <li><a href="#" target="_top"><b>11. FARMERS BLAME</b></a></li>
+                <li><a href="#" target="_top"><b>12. FARMERS BLAME</b></a></li>
+                <li><a href="#" target="_top"><b>13. FARMERS BLAME</b></a></li>
+                <li><a href="#" target="_top"><b>14. FARMERS BLAME</b></a></li>
+                <li><a href="#" target="_top"><b>15. FARMERS BLAST </b></a></li>
+                <li><a href="#" target="_top"><b>16. FARMERS CAUTION </b></a></li>
+                <li><a href="#" target="_top"><b>17. FARMERS CHIDE </b></a></li>
+                <li><a href="#" target="_top"><b>18. FARMERS CHIDE </b></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+
+    <script src="js/highlight.pack.js"></script>
+
+    <script type="text/javascript">
+        hljs.initHighlightingOnLoad();
+
+        $(document).ready(function () {
+            $('#newsTicker1').breakingNews();
+        });
+    </script>
+
+</body>
+
+</html>
